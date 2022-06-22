@@ -1,7 +1,22 @@
-<template></template>
+<template>
+  <section class="survey__container">
+    <survey-content></survey-content>
+  </section>
+</template>
 
 <script>
-export default {};
+import SurveyContent from "./SurveyContent.vue";
+export default {
+  name: "Survey",
+  components: { SurveyContent },
+};
 </script>
 
-<style></style>
+<style>
+.survey__container {
+  height: 300px;
+  width: 300px;
+  background-color: var(--dark-blue);
+  border-radius: 12px;
+}
+</style>
