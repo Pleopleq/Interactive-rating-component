@@ -25,4 +25,19 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.surveyContent__container {
+  height: 100%;
+}
+
+.surveyContent__title > * {
+  font-size: 1.2em;
+  margin-bottom: 14px;
+}
+
+.surveyContent__body > * {
+  font-size: 12px;
+  opacity: 0.8;
+  line-height: 1.1rem;
+}
+</style>
